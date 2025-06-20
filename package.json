@@ -1,0 +1,38 @@
+{
+  "name": "@realbasquete/background-remover",
+  "version": "1.0.0",
+  "description": "Advanced background removal component with manual editing tools",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "keywords": ["background-removal", "image-processing", "react", "canvas", "image-editing"],
+  "author": "RealBasquete Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "framer-motion": "^10.0.0",
+    "lucide-react": "^0.400.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0"
+  }
+}
